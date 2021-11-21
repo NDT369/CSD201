@@ -1,0 +1,26 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package queue;
+
+/**
+ *
+ * @author DUC THINH
+ */
+public class Node {
+    public Object infor;
+    public Node next;
+
+    public Node(Object infor, Node next) {
+        this.infor = infor;
+        this.next = next;
+    }
+
+    public Node(Object x) {
+        this(x,null);
+    }
+    
+    
+}
